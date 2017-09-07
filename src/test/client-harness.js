@@ -1,4 +1,4 @@
-global.self = global;
+global.window = global;
 
 var WebSocketClient = require('websocket').client;
 var Paho = require('../paho-mqtt')
